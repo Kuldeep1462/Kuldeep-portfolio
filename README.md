@@ -1,30 +1,96 @@
-# Portfolio Website Update
+# 🚀 Kuldeep's Portfolio Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Welcome to my personal portfolio website built with **Next.js**, designed to showcase my projects, skills, and resume. The site is fully responsive and optimized for performance.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kuldeepsinghparhar01-gmailcoms-projects/v0-kuldeep-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/b8pbfcou3M2)
+🌐 **Live Site**: [https://kuldeep12-portfolio.vercel.app/](https://kuldeep12-portfolio.vercel.app/)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠️ Tech Stack
 
-## Deployment
+- **Frontend**: Next.js (React)
+- **Styling**: Tailwind CSS
+- **Hosting**: Vercel
+- **Version Control**: Git + GitHub
 
-Your project is live at:
+---
 
-**[https://vercel.com/kuldeepsinghparhar01-gmailcoms-projects/v0-kuldeep-portfolio](https://vercel.com/kuldeepsinghparhar01-gmailcoms-projects/v0-kuldeep-portfolio)**
+## 🚀 Getting Started
 
-## Build your app
+To run this project locally:
 
-Continue building your app on:
+### 1. Clone the Repository
 
-**[https://v0.dev/chat/projects/b8pbfcou3M2](https://v0.dev/chat/projects/b8pbfcou3M2)**
+```bash
+git clone https://github.com/Kuldeep1462/Portfolio-Website.git
+cd Portfolio-Website
+```
 
-## How It Works
+### 2. Install Dependencies
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Use the following command to install packages and handle potential peer dependency issues:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to see the website running locally.
+
+---
+
+## 🔨 Build for Production
+
+```bash
+npm run build
+```
+
+To statically export the site (if needed for GitHub Pages):
+
+```bash
+npx next export
+```
+
+The static site will be available in the `out/` directory.
+
+---
+
+## 🧾 Deployment
+
+This site is automatically deployed using [Vercel](https://vercel.com/). Pushes to the main branch trigger automatic builds.
+
+---
+
+## 📁 Folder Structure
+
+```
+Portfolio-Website/
+├── components/
+├── pages/
+├── public/
+├── styles/
+├── next.config.js
+└── tailwind.config.js
+```
+
+---
+
+## 🙋‍♂️ Author
+
+**Kuldeep Singh**  
+[GitHub](https://github.com/Kuldeep1462) | [LinkedIn](https://www.linkedin.com/in/kuldeep1462/)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+> Made with 💻 and ☕ by Kuldeep
